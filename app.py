@@ -20,7 +20,7 @@ from flask import Flask, Response, g, jsonify, redirect, render_template_string,
 
 IST = ZoneInfo("Asia/Kolkata")
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "admin123")
-DEVICE_KEY = os.environ.get("DEVICE_KEY", "change-this-device-key")
+DEVICE_KEY = os.environ.get("DEVICE_KEY", "pasupathi-123-456")
 LATE_MINUTES = int(os.environ.get("LATE_MINUTES", "10"))
 DB_PATH = os.environ.get("DB_PATH", "attendance.db")
 
